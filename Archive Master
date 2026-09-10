@@ -1,0 +1,1 @@
+jobs:archive:runs-on: ubuntu-latestpermissions:contents: readactions: readchecks: readsteps:- name: Checkout repositoryuses: actions/checkout@v4with:fetch-depth: 0
